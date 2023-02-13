@@ -13,4 +13,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build --file ./Docker-Zero-to-Hero/examples/python-web-app/Dockerfile
+      run: docker build --file Docker-Zero-to-Hero/examples/python-web-app/Dockerfile
