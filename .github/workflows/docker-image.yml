@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . -file /Docker-Zero-to-Hero-Abhishek/examples/python-web-app/Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build -file /Docker-Zero-to-Hero-Abhishek/examples/python-web-app/Dockerfile . --tag my-image-name:$(date +%s)
