@@ -12,5 +12,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - src: Docker-Zero-to-Hero/examples/python-web-app/
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
